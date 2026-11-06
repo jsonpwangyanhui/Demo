@@ -4,7 +4,7 @@ const path = require("path");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const REDFOX_API_KEY = 'ak_57d02d270b3d422a85249b5b1f9ed594';
+const REDFOX_API_KEY = 'ak_57d02d270b3d42xxxxxxxxxxx';
 const REDFOX_API_URL = "https://redfox.hk/story/api/dyData/searchUser";
 
 app.use(express.json({ limit: "1mb" }));
