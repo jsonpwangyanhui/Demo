@@ -1,0 +1,16 @@
+{
+  "name": "redfox-hub-demo",
+  "version": "1.0.0",
+  "description": "RedFox Hub Douyin account search demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "redis": "^4.6.13",
+    "ws": "^8.18.0"
+  }
+}
